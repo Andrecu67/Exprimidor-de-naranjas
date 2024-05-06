@@ -1,0 +1,883 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K50 ]
+[d frameptr 4065 ]
+"11 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+[v _floattostr floattostr `(v  1 e 1 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"11 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\dht11.c
+[v _DHT11_Start DHT11_Start `(v  1 e 1 0 ]
+"21
+[v _DHT11_Response DHT11_Response `(v  1 e 1 0 ]
+"28
+[v _DHT11_Read_Byte DHT11_Read_Byte `(i  1 e 2 0 ]
+"65
+[v _DHT11_Join_Data DHT11_Join_Data `(ui  1 e 2 0 ]
+"92 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+[v _main main `(v  1 e 1 0 ]
+"173
+[v _init_ADC init_ADC `(v  1 e 1 0 ]
+"182
+[v _init_PWM init_PWM `(v  1 e 1 0 ]
+"194
+[v _ISR_high ISR_high `IIH(v  1 e 1 0 ]
+"11 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+[v _HCSR04_Init HCSR04_Init `(v  1 e 1 0 ]
+"20
+[v _HCSR04_Get_Distance HCSR04_Get_Distance `(f  1 e 4 0 ]
+"12 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+[v _I2C_Init_Master I2C_Init_Master `(v  1 e 1 0 ]
+"27
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+"34
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"64
+[v _I2C_Write I2C_Write `(s  1 e 2 0 ]
+"391 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+"446
+[v _OLED_SetFont OLED_SetFont `(v  1 e 1 0 ]
+"465
+[v _OLED_Update OLED_Update `(v  1 e 1 0 ]
+"504
+[v _OLED_ClearDisplay OLED_ClearDisplay `(v  1 e 1 0 ]
+"523
+[v _OLED_DrawPixel OLED_DrawPixel `(v  1 e 1 0 ]
+"536
+[v _OLED_Line OLED_Line `(v  1 e 1 0 ]
+"596
+[v _OLED_V_Line OLED_V_Line `(v  1 e 1 0 ]
+"612
+[v _OLED_H_Line OLED_H_Line `(v  1 e 1 0 ]
+"628
+[v _OLED_Rectangle OLED_Rectangle `(v  1 e 1 0 ]
+"694
+[v _OLED_Write OLED_Write `(v  1 e 1 0 ]
+"767
+[v _OLED_Write_Text OLED_Write_Text `(v  1 e 1 0 ]
+"780
+[v _ssd1306_command ssd1306_command `(v  1 s 1 ssd1306_command ]
+"800
+[v _width width `(uc  1 s 1 width ]
+"805
+[v _height height `(uc  1 s 1 height ]
+"327 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-K_DFP/1.8.249/xc8\pic\include\proc\pic18f45k50.h
+[v _ANSELC ANSELC `VEuc  1 e 1 @3933 ]
+"361
+[v _ANSELD ANSELD `VEuc  1 e 1 @3934 ]
+[s S682 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"3083
+[s S1116 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S1124 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S1127 . 1 `S682 1 . 1 0 `S1116 1 . 1 0 `S1124 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1127  1 e 1 @3969 ]
+[s S1065 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"3918
+[s S1074 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S1083 . 1 `S1065 1 . 1 0 `S1074 1 . 1 0 ]
+[v _LATBbits LATBbits `VES1083  1 e 1 @3978 ]
+[s S189 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"4030
+[s S198 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S207 . 1 `S189 1 . 1 0 `S198 1 . 1 0 ]
+[v _LATCbits LATCbits `VES207  1 e 1 @3979 ]
+[s S110 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"4132
+[s S119 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S128 . 1 `S110 1 . 1 0 `S119 1 . 1 0 ]
+[v _LATDbits LATDbits `VES128  1 e 1 @3980 ]
+[s S673 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4880
+[u S691 . 1 `S673 1 . 1 0 `S682 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES691  1 e 1 @3987 ]
+[s S34 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"5100
+[s S43 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S50 . 1 `S34 1 . 1 0 `S43 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES50  1 e 1 @3988 ]
+[s S70 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"5280
+[s S79 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S88 . 1 `S70 1 . 1 0 `S79 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES88  1 e 1 @3989 ]
+[s S787 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 ACTIF 1 0 :1:7 
+]
+"6318
+[s S796 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 STIF 1 0 :1:7 
+]
+[s S803 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S806 . 1 `S787 1 . 1 0 `S796 1 . 1 0 `S803 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES806  1 e 1 @3998 ]
+[s S519 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"9307
+[s S523 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S531 . 1 `S519 1 . 1 0 `S523 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES531  1 e 1 @4026 ]
+"9357
+[v _PR2 PR2 `VEuc  1 e 1 @4027 ]
+[s S445 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+"9429
+[s S449 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+[s S458 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CCP1Y 1 0 :1:4 
+`uc 1 CCP1X 1 0 :1:5 
+]
+[u S462 . 1 `S445 1 . 1 0 `S449 1 . 1 0 `S458 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES462  1 e 1 @4029 ]
+"9596
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+[s S490 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"9657
+[s S495 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S502 . 1 `S490 1 . 1 0 `S495 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES502  1 e 1 @4032 ]
+[s S384 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"9815
+[s S387 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S391 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S394 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S397 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S400 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S403 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[s S406 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S409 . 1 `S384 1 . 1 0 `S387 1 . 1 0 `S391 1 . 1 0 `S394 1 . 1 0 `S397 1 . 1 0 `S400 1 . 1 0 `S403 1 . 1 0 `S406 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES409  1 e 1 @4034 ]
+"9877
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"9889
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+[s S717 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"10103
+[s S726 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S735 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S742 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S749 . 1 `S717 1 . 1 0 `S726 1 . 1 0 `S735 1 . 1 0 `S742 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES749  1 e 1 @4037 ]
+"10247
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"10597
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"11195
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"11533
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"11957
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+[s S1236 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+"11996
+[s S1239 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+[s S1246 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 T1SOSCEN 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+[s S1255 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1OSCEN 1 0 :1:3 
+]
+[s S1258 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN1 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 RD161 1 0 :1:7 
+]
+[u S1263 . 1 `S1236 1 . 1 0 `S1239 1 . 1 0 `S1246 1 . 1 0 `S1255 1 . 1 0 `S1258 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1263  1 e 1 @4045 ]
+"12093
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"12113
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+[s S229 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"12176
+[s S231 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S234 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S237 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S240 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S243 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S252 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S258 . 1 `S229 1 . 1 0 `S231 1 . 1 0 `S234 1 . 1 0 `S237 1 . 1 0 `S240 1 . 1 0 `S243 1 . 1 0 `S252 1 . 1 0 ]
+[v _RCONbits RCONbits `VES258  1 e 1 @4048 ]
+[s S345 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"13175
+[s S348 . 1 `uc 1 IOCIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S357 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S362 . 1 `S345 1 . 1 0 `S348 1 . 1 0 `S357 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES362  1 e 1 @4081 ]
+[s S296 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"13257
+[s S305 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S314 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S318 . 1 `S296 1 . 1 0 `S305 1 . 1 0 `S314 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES318  1 e 1 @4082 ]
+"83 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+[v _buffer buffer `[20]uc  1 e 20 0 ]
+"88
+[v _adc_value adc_value `uc  1 e 1 0 ]
+"3 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+[v _FONT_1 FONT_1 `C[581]uc  1 e 581 0 ]
+"104
+[v _FONT_2 FONT_2 `C[1524]uc  1 e 1524 0 ]
+[s S866 _Current_Font_s 7 `*.25Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+"307
+[v _cfont cfont `S866  1 s 7 cfont ]
+"308
+[v _buffer@ssd1306_oled$F923 buffer `[1024]uc  1 s 1024 buffer ]
+"92 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+[v _main main `(v  1 e 1 0 ]
+{
+"162
+[v main@distancia distancia `f  1 a 4 83 ]
+"172
+} 0
+"182
+[v _init_PWM init_PWM `(v  1 e 1 0 ]
+{
+"192
+} 0
+"173
+[v _init_ADC init_ADC `(v  1 e 1 0 ]
+{
+"180
+} 0
+"11 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+[v _floattostr floattostr `(v  1 e 1 0 ]
+{
+"14
+[v floattostr@tempo_float tempo_float `d  1 a 4 17 ]
+"13
+[v floattostr@largo_entera largo_entera `i  1 a 2 25 ]
+[v floattostr@cont_for cont_for `i  1 a 2 23 ]
+[v floattostr@largo_n largo_n `i  1 a 2 21 ]
+[v floattostr@tempo_int tempo_int `i  1 a 2 15 ]
+"11
+[v floattostr@numero_ numero_ `f  1 p 4 8 ]
+[v floattostr@cadena_ cadena_ `*.39uc  1 p 2 12 ]
+[v floattostr@decimales_ decimales_ `uc  1 p 1 14 ]
+"57
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 50 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 49 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 41 ]
+"70
+} 0
+"245 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 0 ]
+[v ___flsub@a a `d  1 p 4 4 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 81 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 80 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 79 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 78 ]
+"10
+[v ___fladd@b b `d  1 p 4 66 ]
+[v ___fladd@a a `d  1 p 4 70 ]
+"237
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 2 ]
+"20
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 2 ]
+[v ___flge@ff2 ff2 `d  1 p 4 6 ]
+"19
+} 0
+"767 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+[v _OLED_Write_Text OLED_Write_Text `(v  1 e 1 0 ]
+{
+"770
+[v OLED_Write_Text@length length `uc  1 a 1 56 ]
+"769
+[v OLED_Write_Text@cnt cnt `uc  1 a 1 55 ]
+"767
+[v OLED_Write_Text@x x `s  1 p 2 47 ]
+[v OLED_Write_Text@y y `s  1 p 2 49 ]
+[v OLED_Write_Text@text text `*.35uc  1 p 2 51 ]
+"778
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.35Cuc  1 a 2 4 ]
+"5
+[v strlen@s s `*.35Cuc  1 p 2 2 ]
+"12
+} 0
+"694 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+[v _OLED_Write OLED_Write `(v  1 e 1 0 ]
+{
+"698
+[v OLED_Write@cnt cnt `us  1 a 2 44 ]
+"697
+[v OLED_Write@rowcnt rowcnt `us  1 a 2 42 ]
+"701
+[v OLED_Write@cy cy `s  1 a 2 40 ]
+[v OLED_Write@cx cx `s  1 a 2 38 ]
+"696
+[v OLED_Write@font_idx font_idx `us  1 a 2 36 ]
+"702
+[v OLED_Write@cbit cbit `s  1 a 2 34 ]
+"701
+[v OLED_Write@cbyte cbyte `s  1 a 2 32 ]
+"700
+[v OLED_Write@temp temp `us  1 a 2 30 ]
+"699
+[v OLED_Write@b b `uc  1 a 1 46 ]
+"694
+[v OLED_Write@x x `s  1 p 2 20 ]
+[v OLED_Write@y y `s  1 p 2 22 ]
+[v OLED_Write@value value `uc  1 p 1 24 ]
+"765
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 14 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 10 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 12 ]
+"53
+} 0
+"446 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+[v _OLED_SetFont OLED_SetFont `(v  1 e 1 0 ]
+{
+[v OLED_SetFont@font font `*.25Cuc  1 p 2 2 ]
+"454
+} 0
+"628
+[v _OLED_Rectangle OLED_Rectangle `(v  1 e 1 0 ]
+{
+[v OLED_Rectangle@x1 x1 `s  1 p 2 30 ]
+[v OLED_Rectangle@y1 y1 `s  1 p 2 32 ]
+[v OLED_Rectangle@x2 x2 `s  1 p 2 34 ]
+[v OLED_Rectangle@y2 y2 `s  1 p 2 36 ]
+[v OLED_Rectangle@color color `uc  1 p 1 38 ]
+"634
+} 0
+"596
+[v _OLED_V_Line OLED_V_Line `(v  1 e 1 0 ]
+{
+"598
+[v OLED_V_Line@temp temp `s  1 a 2 28 ]
+"596
+[v OLED_V_Line@y_start y_start `s  1 p 2 20 ]
+[v OLED_V_Line@y_end y_end `s  1 p 2 22 ]
+[v OLED_V_Line@x_pos x_pos `s  1 p 2 24 ]
+[v OLED_V_Line@color color `uc  1 p 1 26 ]
+"610
+} 0
+"612
+[v _OLED_H_Line OLED_H_Line `(v  1 e 1 0 ]
+{
+"614
+[v OLED_H_Line@temp temp `s  1 a 2 28 ]
+"612
+[v OLED_H_Line@x_start x_start `s  1 p 2 20 ]
+[v OLED_H_Line@x_end x_end `s  1 p 2 22 ]
+[v OLED_H_Line@y_pos y_pos `s  1 p 2 24 ]
+[v OLED_H_Line@color color `uc  1 p 1 26 ]
+"626
+} 0
+"523
+[v _OLED_DrawPixel OLED_DrawPixel `(v  1 e 1 0 ]
+{
+[v OLED_DrawPixel@x x `s  1 p 2 10 ]
+[v OLED_DrawPixel@y y `s  1 p 2 12 ]
+[v OLED_DrawPixel@color color `uc  1 p 1 14 ]
+"534
+} 0
+"800
+[v _width width `(uc  1 s 1 width ]
+{
+"803
+} 0
+"805
+[v _height height `(uc  1 s 1 height ]
+{
+"808
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 8 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 7 ]
+[v ___awdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+[v ___awdiv@divisor divisor `i  1 p 2 4 ]
+"41
+} 0
+"391 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+{
+"434
+} 0
+"465
+[v _OLED_Update OLED_Update `(v  1 e 1 0 ]
+{
+"467
+[v OLED_Update@i i `us  1 a 2 5 ]
+"468
+[v OLED_Update@x x `uc  1 a 1 4 ]
+"496
+} 0
+"780
+[v _ssd1306_command ssd1306_command `(v  1 s 1 ssd1306_command ]
+{
+[v ssd1306_command@command command `uc  1 a 1 wreg ]
+[v ssd1306_command@command command `uc  1 a 1 wreg ]
+[v ssd1306_command@command command `uc  1 a 1 3 ]
+"788
+} 0
+"64 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+[v _I2C_Write I2C_Write `(s  1 e 2 0 ]
+{
+[v I2C_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Write@data data `uc  1 a 1 wreg ]
+"66
+[v I2C_Write@data data `uc  1 a 1 2 ]
+"71
+} 0
+"34
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"39
+} 0
+"27
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"32
+} 0
+"504 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+[v _OLED_ClearDisplay OLED_ClearDisplay `(v  1 e 1 0 ]
+{
+"507
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 12 ]
+"7
+[v memset@k k `ui  1 a 2 10 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 2 ]
+[v memset@c c `i  1 p 2 4 ]
+[v memset@n n `ui  1 p 2 6 ]
+"90
+} 0
+"12 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+[v _I2C_Init_Master I2C_Init_Master `(v  1 e 1 0 ]
+{
+[v I2C_Init_Master@sp_i2c sp_i2c `uc  1 a 1 wreg ]
+[v I2C_Init_Master@sp_i2c sp_i2c `uc  1 a 1 wreg ]
+"14
+[v I2C_Init_Master@sp_i2c sp_i2c `uc  1 a 1 2 ]
+"25
+} 0
+"11 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+[v _HCSR04_Init HCSR04_Init `(v  1 e 1 0 ]
+{
+"18
+} 0
+"20
+[v _HCSR04_Get_Distance HCSR04_Get_Distance `(f  1 e 4 0 ]
+{
+"34
+[v HCSR04_Get_Distance@dis_hc dis_hc `f  1 a 4 72 ]
+"23
+[v HCSR04_Get_Distance@timer_low timer_low `ui  1 a 2 78 ]
+"22
+[v HCSR04_Get_Distance@timer_high timer_high `ui  1 a 2 76 ]
+"36
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 12 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 11 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 2 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 10 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1647 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1652 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S1655 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1647 1 fAsBytes 4 0 `S1652 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1655  1 a 4 35 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 30 ]
+[s S1723 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1726 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1723 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1726  1 a 2 39 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 34 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 29 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 28 ]
+"8
+[v ___flmul@b b `d  1 p 4 16 ]
+[v ___flmul@a a `d  1 p 4 20 ]
+"205
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 60 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 53 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 58 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 65 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 64 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 57 ]
+"11
+[v ___fldiv@b b `d  1 p 4 41 ]
+[v ___fldiv@a a `d  1 p 4 45 ]
+"185
+} 0
+"194 C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+[v _ISR_high ISR_high `IIH(v  1 e 1 0 ]
+{
+"207
+} 0

@@ -1,0 +1,1419 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\Exprimidor_naranjas_.X.production.o
+cinit CODE 0 27C2 27C2 44 1 2
+text0 CODE 0 1C5A 1C5A 1B2 1 2
+text1 CODE 0 28A6 28A6 22 1 2
+text2 CODE 0 291E 291E 16 1 2
+text3 CODE 0 4EE 4EE 452 1 2
+text4 CODE 0 1F82 1F82 106 1 2
+text5 CODE 0 277A 277A 48 1 2
+text6 CODE 0 2E 2E 4C0 1 2
+text7 CODE 0 2848 2848 38 1 2
+text8 CODE 0 2088 2088 104 1 2
+text9 CODE 0 218C 218C F0 1 2
+text10 CODE 0 272C 272C 4E 1 2
+text11 CODE 0 116A 116A 3E2 1 2
+text12 CODE 0 2880 2880 26 1 2
+text13 CODE 0 26C0 26C0 6C 1 2
+text14 CODE 0 2552 2552 82 1 2
+text15 CODE 0 25D4 25D4 76 1 2
+text16 CODE 0 264A 264A 76 1 2
+text17 CODE 0 18E6 18E6 1C0 1 2
+text18 CODE 0 296A 296A 4 1 2
+text19 CODE 0 296E 296E 4 1 2
+text20 CODE 0 2342 2342 C4 1 2
+text21 CODE 0 2406 2406 BE 1 2
+text22 CODE 0 24C4 24C4 8E 1 2
+text23 CODE 0 28C8 28C8 1E 1 2
+text24 CODE 0 2904 2904 1A 1 2
+text25 CODE 0 2934 2934 14 1 2
+text26 CODE 0 2948 2948 14 1 2
+text27 CODE 0 28E6 28E6 1E 1 2
+text28 CODE 0 1E0C 1E0C 176 1 2
+text29 CODE 0 2806 2806 42 1 2
+text30 CODE 0 295C 295C E 1 2
+text31 CODE 0 227C 227C C6 1 2
+text32 CODE 0 1AA6 1AA6 1B4 1 2
+text33 CODE 0 940 940 42A 1 2
+text34 CODE 0 154C 154C 39A 1 2
+idataBIGRAM CODE 0 D6A D6A 400 1 1
+cstackCOMRAM COMRAM 1 1 1 57 1 1
+cstackBANK0 BANK0 1 86 86 1B 1 1
+temp COMRAM 1 5B 5B 1 1 1
+bssBANK0 BANK0 1 60 60 26 1 1
+intcode CODE 0 8 8 22 1 2
+dataBIGRAM BIGRAM 1 A1 A1 400 1 1
+bssCOMRAM COMRAM 1 58 58 3 1 1
+mediumconst MEDIUMCONST 0 6BBC 6BBC 1444 1 2
+config CONFIG 4 300000 300000 E 1 1
+$C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+init CODE 0 2A 2A 4 1 2
+reset_vec CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 E 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 4A1-7FF 1
+SFR F53-FFF 1
+BANK4 4A1-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+CONST 4-7 1
+CONST 2972-6BBB 1
+IDLOC 200000-200007 1
+SMALLCONST 2972-6BBB 1
+CODE 4-7 1
+CODE 2972-6BBB 1
+BIGRAM 5C-5F 1
+BIGRAM 4A1-7FF 1
+BIGSFR F53-FFF 1
+COMRAM 5C-5F 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 2972-6BBB 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Exprimidor_naranjas_.X.production.o
+8 intcode CODE >17790:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+8 intcode CODE >194:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+A intcode CODE >196:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+C intcode CODE >202:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+24 intcode CODE >205:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+26 intcode CODE >207:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+154C text34 CODE >11:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+154C text34 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1552 text34 CODE >27:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1558 text34 CODE >28:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1566 text34 CODE >29:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1568 text34 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1578 text34 CODE >35:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1588 text34 CODE >37:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1598 text34 CODE >40:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+159A text34 CODE >42:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+159E text34 CODE >43:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+15A2 text34 CODE >46:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+15B2 text34 CODE >49:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+15B8 text34 CODE >50:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+15BE text34 CODE >51:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+15CC text34 CODE >52:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+15CE text34 CODE >56:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+15DE text34 CODE >58:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+15EE text34 CODE >60:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+15FE text34 CODE >63:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1600 text34 CODE >65:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1604 text34 CODE >66:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1608 text34 CODE >69:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1618 text34 CODE >75:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+162E text34 CODE >76:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+163E text34 CODE >77:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1646 text34 CODE >78:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+164A text34 CODE >79:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+165E text34 CODE >83:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+166E text34 CODE >84:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+166E text34 CODE >85:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1682 text34 CODE >89:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+169C text34 CODE >92:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+16AC text34 CODE >93:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+16BC text34 CODE >94:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+16CC text34 CODE >96:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+16D0 text34 CODE >97:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+16D4 text34 CODE >100:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+16E4 text34 CODE >101:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+16EE text34 CODE >102:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+16F8 text34 CODE >103:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1706 text34 CODE >104:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1708 text34 CODE >105:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1708 text34 CODE >106:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1712 text34 CODE >112:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1730 text34 CODE >115:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1732 text34 CODE >116:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1742 text34 CODE >118:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1744 text34 CODE >97:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1744 text34 CODE >119:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1754 text34 CODE >122:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+176A text34 CODE >123:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1770 text34 CODE >128:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+177A text34 CODE >129:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1788 text34 CODE >130:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+178A text34 CODE >131:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+178A text34 CODE >132:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1794 text34 CODE >133:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+179A text34 CODE >127:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+17A8 text34 CODE >139:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+17AC text34 CODE >140:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+17BA text34 CODE >141:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+17E8 text34 CODE >142:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+17EC text34 CODE >143:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+17F0 text34 CODE >144:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+17F0 text34 CODE >145:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1802 text34 CODE >149:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1802 text34 CODE >150:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1812 text34 CODE >151:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+181E text34 CODE >152:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+182C text34 CODE >153:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1856 text34 CODE >154:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+185A text34 CODE >159:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+1874 text34 CODE >160:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+187A text34 CODE >161:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+188A text34 CODE >165:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+18A4 text34 CODE >166:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+18AC text34 CODE >167:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+18BC text34 CODE >169:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+18C0 text34 CODE >173:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+18C4 text34 CODE >175:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+18D2 text34 CODE >176:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+18D4 text34 CODE >177:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+18D8 text34 CODE >180:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+18DA text34 CODE >182:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+18E4 text34 CODE >185:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+940 text33 CODE >8:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+940 text33 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+946 text33 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+94C text33 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+95A text33 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+95C text33 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+96C text33 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+97C text33 CODE >28:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+98C text33 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+98E text33 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+992 text33 CODE >36:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+9A2 text33 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+9A8 text33 CODE >40:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+9AE text33 CODE >41:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+9BC text33 CODE >42:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+9BE text33 CODE >45:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+9CE text33 CODE >48:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+9DE text33 CODE >50:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+9EE text33 CODE >53:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+9F0 text33 CODE >54:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+9F4 text33 CODE >57:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A04 text33 CODE >58:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A04 text33 CODE >65:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A24 text33 CODE >66:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A38 text33 CODE >95:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A44 text33 CODE >96:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A4E text33 CODE >97:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A58 text33 CODE >98:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A64 text33 CODE >99:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A70 text33 CODE >100:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A7C text33 CODE >101:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A88 text33 CODE >102:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+A94 text33 CODE >103:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+AA0 text33 CODE >104:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+AAE text33 CODE >105:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+ABA text33 CODE >106:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+ACA text33 CODE >107:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+AD6 text33 CODE >108:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+AE6 text33 CODE >109:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+AF4 text33 CODE >110:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+B00 text33 CODE >111:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+B10 text33 CODE >112:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+B1C text33 CODE >113:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+B2C text33 CODE >114:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+B38 text33 CODE >115:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+B48 text33 CODE >116:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+B54 text33 CODE >117:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+B7E text33 CODE >145:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+BB4 text33 CODE >146:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+BC2 text33 CODE >149:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+BDC text33 CODE >152:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+BE0 text33 CODE >153:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+BEA text33 CODE >154:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+BF8 text33 CODE >155:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+BFA text33 CODE >156:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+BFA text33 CODE >157:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C04 text33 CODE >158:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C0A text33 CODE >152:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C18 text33 CODE >163:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C1C text33 CODE >164:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C2A text33 CODE >165:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C58 text33 CODE >166:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C5C text33 CODE >167:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C60 text33 CODE >168:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C60 text33 CODE >169:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C72 text33 CODE >173:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C72 text33 CODE >174:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C82 text33 CODE >175:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C8E text33 CODE >176:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+C9C text33 CODE >177:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+CC6 text33 CODE >178:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+CCA text33 CODE >183:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+CE4 text33 CODE >184:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+CF4 text33 CODE >185:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+CF8 text33 CODE >187:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D12 text33 CODE >188:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D22 text33 CODE >190:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D26 text33 CODE >191:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D2A text33 CODE >192:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D2A text33 CODE >194:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D2E text33 CODE >195:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D3E text33 CODE >196:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D4C text33 CODE >197:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D4E text33 CODE >199:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D54 text33 CODE >201:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D58 text33 CODE >203:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+D68 text33 CODE >205:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+1AA6 text32 CODE >10:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1AA8 text32 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1AC6 text32 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1AF8 text32 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1AFC text32 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1AFC text32 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B0C text32 CODE >21:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B22 text32 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B36 text32 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B3A text32 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B3E text32 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B40 text32 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B4A text32 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B7C text32 CODE >29:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B7E text32 CODE >30:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B8A text32 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B94 text32 CODE >28:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1B94 text32 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1BC6 text32 CODE >34:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1BC8 text32 CODE >35:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1BD2 text32 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1BF0 text32 CODE >37:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1BFE text32 CODE >38:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1C00 text32 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1C04 text32 CODE >40:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1C28 text32 CODE >41:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1C46 text32 CODE >42:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1C48 text32 CODE >43:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+1C58 text32 CODE >44:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+227C text31 CODE >20:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+227C text31 CODE >25:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+227E text31 CODE >26:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+2286 text31 CODE >27:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+2288 text31 CODE >28:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+2296 text31 CODE >29:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+229A text31 CODE >30:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+229E text31 CODE >31:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+22AC text31 CODE >32:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+22B2 text31 CODE >33:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+22B8 text31 CODE >34:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+2330 text31 CODE >35:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+2340 text31 CODE >36:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+295C text30 CODE >11:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+295C text30 CODE >13:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+295E text30 CODE >14:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+2960 text30 CODE >15:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+2962 text30 CODE >16:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+2966 text30 CODE >17:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+2968 text30 CODE >18:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\hc_sr04.c
+2806 text29 CODE >12:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2808 text29 CODE >14:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+280A text29 CODE >15:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+280C text29 CODE >16:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2810 text29 CODE >17:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2814 text29 CODE >18:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2818 text29 CODE >19:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+282A text29 CODE >20:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+282E text29 CODE >21:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2832 text29 CODE >22:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2842 text29 CODE >23:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2846 text29 CODE >25:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+1E0C text28 CODE >4:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1E0C text28 CODE >6:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1E14 text28 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1E2A text28 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1E36 text28 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1E52 text28 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1E6C text28 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1E7C text28 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1E8C text28 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1EA8 text28 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1EC4 text28 CODE >21:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1EDE text28 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1EEE text28 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1F0A text28 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1F24 text28 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1F3C text28 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1F44 text28 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1F4C text28 CODE >34:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1F54 text28 CODE >86:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+1F80 text28 CODE >90:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+28E6 text27 CODE >504:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+28E6 text27 CODE >506:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2902 text27 CODE >507:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2948 text26 CODE >27:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2948 text26 CODE >29:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+294A text26 CODE >30:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2958 text26 CODE >31:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+295A text26 CODE >32:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2934 text25 CODE >34:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2934 text25 CODE >36:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2936 text25 CODE >37:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2944 text25 CODE >38:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2946 text25 CODE >39:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2904 text24 CODE >64:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2906 text24 CODE >66:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+290A text24 CODE >67:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+2918 text24 CODE >68:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+291A text24 CODE >69:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+291C text24 CODE >71:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\i2c.c
+28C8 text23 CODE >780:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+28CA text23 CODE >782:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+28CA text23 CODE >783:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+28CE text23 CODE >784:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+28D4 text23 CODE >785:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+28DA text23 CODE >786:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+28E0 text23 CODE >787:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+28E4 text23 CODE >788:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24C4 text22 CODE >465:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24C4 text22 CODE >467:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24C4 text22 CODE >468:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24C8 text22 CODE >469:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24CE text22 CODE >470:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24D4 text22 CODE >471:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24DA text22 CODE >472:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24E0 text22 CODE >473:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24E6 text22 CODE >475:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24EC text22 CODE >483:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24F4 text22 CODE >485:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24F8 text22 CODE >486:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24FE text22 CODE >487:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2504 text22 CODE >488:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2508 text22 CODE >490:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+251A text22 CODE >491:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+251E text22 CODE >492:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2530 text22 CODE >493:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2536 text22 CODE >494:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+253A text22 CODE >495:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2550 text22 CODE >496:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2406 text21 CODE >391:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2406 text21 CODE >393:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+241E text21 CODE >394:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2424 text21 CODE >395:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+242A text21 CODE >396:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2430 text21 CODE >397:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2436 text21 CODE >398:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+243C text21 CODE >399:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2442 text21 CODE >400:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2448 text21 CODE >401:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+244E text21 CODE >402:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2454 text21 CODE >404:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+245A text21 CODE >405:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2460 text21 CODE >406:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2466 text21 CODE >407:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+246C text21 CODE >408:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2472 text21 CODE >417:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2478 text21 CODE >418:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+247E text21 CODE >419:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2484 text21 CODE >421:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+248A text21 CODE >423:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2490 text21 CODE >425:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2496 text21 CODE >426:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+249C text21 CODE >427:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24A2 text21 CODE >428:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24A8 text21 CODE >429:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24AE text21 CODE >430:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24B4 text21 CODE >431:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24BA text21 CODE >432:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24BE text21 CODE >433:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+24C2 text21 CODE >434:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2342 text20 CODE >7:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+2342 text20 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+2346 text20 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+2354 text20 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+235C text20 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+2360 text20 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+236E text20 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+2376 text20 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+237A text20 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+2382 text20 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+2394 text20 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+2398 text20 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+239C text20 CODE >26:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23A2 text20 CODE >27:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23A4 text20 CODE >25:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23B2 text20 CODE >30:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23B8 text20 CODE >31:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23CE text20 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23D6 text20 CODE >33:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23D8 text20 CODE >35:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23DE text20 CODE >36:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23E4 text20 CODE >38:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23F4 text20 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+23FC text20 CODE >40:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+2404 text20 CODE >41:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+296E text19 CODE >805:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+296E text19 CODE >807:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2970 text19 CODE >808:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+296A text18 CODE >800:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+296A text18 CODE >802:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+296C text18 CODE >803:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+18E6 text17 CODE >523:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+18E6 text17 CODE >525:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1952 text17 CODE >530:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+19B0 text17 CODE >531:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1A14 text17 CODE >532:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1A72 text17 CODE >533:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1A7C text17 CODE >533:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1A8A text17 CODE >533:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1A92 text17 CODE >533:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1A9A text17 CODE >533:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1AA4 text17 CODE >534:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+264A text16 CODE >612:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+264A text16 CODE >615:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2668 text16 CODE >617:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2670 text16 CODE >618:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2678 text16 CODE >619:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2684 text16 CODE >623:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+269C text16 CODE >624:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+26A0 text16 CODE >621:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+26BE text16 CODE >626:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+25D4 text15 CODE >596:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+25D4 text15 CODE >599:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+25F2 text15 CODE >601:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+25FA text15 CODE >602:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2602 text15 CODE >603:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+260E text15 CODE >607:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2626 text15 CODE >608:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+262A text15 CODE >605:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2648 text15 CODE >610:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2552 text14 CODE >628:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2552 text14 CODE >630:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2572 text14 CODE >631:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2592 text14 CODE >632:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+25B2 text14 CODE >633:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+25D2 text14 CODE >634:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+26C0 text13 CODE >446:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+26C0 text13 CODE >448:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+26C8 text13 CODE >449:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+26D6 text13 CODE >450:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+26F0 text13 CODE >451:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+270A text13 CODE >452:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2724 text13 CODE >453:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+272A text13 CODE >454:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2880 text12 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+2880 text12 CODE >37:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+288C text12 CODE >38:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+2894 text12 CODE >39:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+289C text12 CODE >52:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+28A4 text12 CODE >53:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+116A text11 CODE >694:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+116A text11 CODE >696:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+116A text11 CODE >697:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1172 text11 CODE >698:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+117A text11 CODE >700:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1182 text11 CODE >704:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1198 text11 CODE >706:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+11EA text11 CODE >707:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+11F6 text11 CODE >709:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1202 text11 CODE >711:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1242 text11 CODE >712:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1246 text11 CODE >714:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+127E text11 CODE >716:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1290 text11 CODE >717:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+12D6 text11 CODE >719:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+131C text11 CODE >723:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1332 text11 CODE >728:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1344 text11 CODE >729:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1366 text11 CODE >730:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1396 text11 CODE >734:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+13D4 text11 CODE >735:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+13F2 text11 CODE >736:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+13FA text11 CODE >737:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1406 text11 CODE >739:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1412 text11 CODE >741:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+144A text11 CODE >743:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+145C text11 CODE >744:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1480 text11 CODE >746:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+14A4 text11 CODE >750:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+14BA text11 CODE >755:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+14C0 text11 CODE >756:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+14CE text11 CODE >758:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+14D6 text11 CODE >759:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+14DA text11 CODE >760:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+14F8 text11 CODE >762:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+1522 text11 CODE >763:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+154A text11 CODE >765:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+272C text10 CODE >5:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strlen.c
+272C text10 CODE >7:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strlen.c
+2734 text10 CODE >8:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strlen.c
+2738 text10 CODE >9:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strlen.c
+273C text10 CODE >8:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strlen.c
+276C text10 CODE >11:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strlen.c
+2778 text10 CODE >12:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strlen.c
+218C text9 CODE >767:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+218C text9 CODE >771:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+219C text9 CODE >772:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+21B0 text9 CODE >773:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+21CE text9 CODE >774:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+21E0 text9 CODE >775:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2212 text9 CODE >776:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+221A text9 CODE >777:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+227A text9 CODE >778:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\ssd1306_oled.c
+2088 text8 CODE >4:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+2088 text8 CODE >7:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+20B6 text8 CODE >8:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+20C6 text8 CODE >9:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+20F4 text8 CODE >10:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+2104 text8 CODE >12:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+2112 text8 CODE >13:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+2124 text8 CODE >14:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+2132 text8 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+2144 text8 CODE >16:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+2154 text8 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+2164 text8 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+218A text8 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+2848 text7 CODE >15:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flneg.c
+2848 text7 CODE >17:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flneg.c
+285E text7 CODE >18:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flneg.c
+286E text7 CODE >19:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flneg.c
+287E text7 CODE >20:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flneg.c
+2E text6 CODE >10:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+2E text6 CODE >21:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+34 text6 CODE >22:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3A text6 CODE >23:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+48 text6 CODE >24:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4A text6 CODE >28:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+5A text6 CODE >30:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+6A text6 CODE >32:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+7A text6 CODE >35:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+7C text6 CODE >37:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+80 text6 CODE >38:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+84 text6 CODE >41:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+94 text6 CODE >44:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+9A text6 CODE >46:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+AC text6 CODE >47:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+AE text6 CODE >49:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+B4 text6 CODE >50:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+C2 text6 CODE >51:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+C4 text6 CODE >55:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+D4 text6 CODE >57:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+E4 text6 CODE >59:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+F4 text6 CODE >62:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+F6 text6 CODE >64:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+FA text6 CODE >65:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+FE text6 CODE >68:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+10E text6 CODE >75:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+120 text6 CODE >77:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+12E text6 CODE >78:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+132 text6 CODE >81:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+136 text6 CODE >82:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+13A text6 CODE >83:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+13E text6 CODE >84:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+142 text6 CODE >85:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+146 text6 CODE >86:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+14A text6 CODE >87:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+14E text6 CODE >88:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+152 text6 CODE >89:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+156 text6 CODE >90:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+15A text6 CODE >91:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+15E text6 CODE >92:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+162 text6 CODE >93:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+166 text6 CODE >94:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+16A text6 CODE >95:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+16E text6 CODE >98:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+172 text6 CODE >100:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+19C text6 CODE >101:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1B8 text6 CODE >102:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1C8 text6 CODE >103:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1CC text6 CODE >104:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1D0 text6 CODE >106:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1D0 text6 CODE >109:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1DE text6 CODE >110:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1E6 text6 CODE >111:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1EA text6 CODE >113:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1EE text6 CODE >115:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1FC text6 CODE >116:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1FE text6 CODE >118:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+208 text6 CODE >119:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+20A text6 CODE >106:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+20A text6 CODE >120:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+21C text6 CODE >121:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+21C text6 CODE >124:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+22A text6 CODE >127:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+23A text6 CODE >128:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+24E text6 CODE >132:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+25E text6 CODE >134:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+26C text6 CODE >135:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+27A text6 CODE >136:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+282 text6 CODE >137:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+286 text6 CODE >139:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+28A text6 CODE >141:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+298 text6 CODE >142:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+29A text6 CODE >144:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+2A4 text6 CODE >145:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+2AA text6 CODE >153:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+2D0 text6 CODE >154:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+300 text6 CODE >155:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+304 text6 CODE >156:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+306 text6 CODE >157:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+316 text6 CODE >158:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+326 text6 CODE >162:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+336 text6 CODE >163:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+336 text6 CODE >166:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+35C text6 CODE >167:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+370 text6 CODE >172:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+37A text6 CODE >173:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+388 text6 CODE >174:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+38A text6 CODE >176:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+398 text6 CODE >177:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+39C text6 CODE >178:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3A0 text6 CODE >180:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3A4 text6 CODE >182:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3B4 text6 CODE >183:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3B6 text6 CODE >171:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3C4 text6 CODE >192:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3C8 text6 CODE >193:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3D6 text6 CODE >194:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3EC text6 CODE >195:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3F0 text6 CODE >196:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3F4 text6 CODE >197:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+3F4 text6 CODE >198:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+406 text6 CODE >202:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+406 text6 CODE >203:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+416 text6 CODE >204:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+422 text6 CODE >205:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+430 text6 CODE >206:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+45A text6 CODE >207:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+46A text6 CODE >208:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+46C text6 CODE >215:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+48C text6 CODE >216:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+49C text6 CODE >218:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4AC text6 CODE >219:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4B0 text6 CODE >225:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4BE text6 CODE >226:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4C0 text6 CODE >227:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4C4 text6 CODE >230:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4C6 text6 CODE >232:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4CC text6 CODE >233:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4DA text6 CODE >234:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4DC text6 CODE >236:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+4EC text6 CODE >237:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+277A text5 CODE >245:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+277A text5 CODE >248:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+278C text5 CODE >249:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+27C0 text5 CODE >250:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+1F82 text4 CODE >43:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+1F82 text4 CODE >47:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+1F98 text4 CODE >48:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+1FAC text4 CODE >49:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+1FD6 text4 CODE >50:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+1FD8 text4 CODE >51:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+1FE8 text4 CODE >52:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+1FEC text4 CODE >53:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+1FFA text4 CODE >54:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+2012 text4 CODE >57:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+2026 text4 CODE >60:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+203A text4 CODE >63:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+2044 text4 CODE >64:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+2046 text4 CODE >62:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+2056 text4 CODE >67:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+2066 text4 CODE >68:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+2076 text4 CODE >69:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+2086 text4 CODE >70:C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+4EE text3 CODE >11:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+4EE text3 CODE >15:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+4FC text3 CODE >16:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+504 text3 CODE >18:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+512 text3 CODE >20:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+522 text3 CODE >21:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+546 text3 CODE >23:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+57C text3 CODE >25:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+5B0 text3 CODE >26:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+5B8 text3 CODE >23:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+5EE text3 CODE >30:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+622 text3 CODE >31:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+628 text3 CODE >28:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+65A text3 CODE >33:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+668 text3 CODE >35:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+69C text3 CODE >36:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+6F6 text3 CODE >37:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+74E text3 CODE >38:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+780 text3 CODE >40:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+796 text3 CODE >42:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+7A6 text3 CODE >44:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+7C6 text3 CODE >45:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+7E0 text3 CODE >46:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+81C text3 CODE >48:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+828 text3 CODE >50:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+844 text3 CODE >51:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+858 text3 CODE >52:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+880 text3 CODE >53:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+8DC text3 CODE >54:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+910 text3 CODE >55:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+934 text3 CODE >56:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+93E text3 CODE >57:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X/float_str.h
+291E text2 CODE >173:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+291E text2 CODE >175:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+2922 text2 CODE >176:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+292A text2 CODE >177:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+292E text2 CODE >178:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+2930 text2 CODE >179:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+2932 text2 CODE >180:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+28A6 text1 CODE >182:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+28A6 text1 CODE >184:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+28A8 text1 CODE >185:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+28AC text1 CODE >186:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+28B4 text1 CODE >187:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+28B6 text1 CODE >189:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+28BE text1 CODE >190:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+28C2 text1 CODE >191:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+28C6 text1 CODE >192:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C5A text0 CODE >92:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C5A text0 CODE >95:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C5E text0 CODE >96:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C62 text0 CODE >98:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C68 text0 CODE >99:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C6C text0 CODE >100:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C6E text0 CODE >101:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C70 text0 CODE >102:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C72 text0 CODE >104:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C78 text0 CODE >105:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C7C text0 CODE >107:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1C88 text0 CODE >108:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CA4 text0 CODE >109:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CCC text0 CODE >110:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CD0 text0 CODE >112:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CD4 text0 CODE >114:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CD6 text0 CODE >115:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CD8 text0 CODE >117:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CDA text0 CODE >118:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CDC text0 CODE >119:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CDE text0 CODE >120:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CE0 text0 CODE >121:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CE2 text0 CODE >122:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CE4 text0 CODE >136:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CE8 text0 CODE >137:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CEA text0 CODE >138:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CF8 text0 CODE >139:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1CFC text0 CODE >141:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1D00 text0 CODE >142:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1D4E text0 CODE >162:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1D62 text0 CODE >163:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1D6E text0 CODE >164:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1D8A text0 CODE >165:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1DAC text0 CODE >166:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1DC8 text0 CODE >167:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1DE4 text0 CODE >168:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+1E00 text0 CODE >169:C:\Users\CAFE\MPLABXProjects\Exprimidor_naranjas .X\Exprimidor_naranjas.c
+27C2 cinit CODE >8609:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27C2 cinit CODE >8611:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27C2 cinit CODE >8614:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27C2 cinit CODE >8662:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27C4 cinit CODE >8663:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27C6 cinit CODE >8664:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27C8 cinit CODE >8665:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27CA cinit CODE >8666:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27CC cinit CODE >8667:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27CE cinit CODE >8668:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27D2 cinit CODE >8669:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27D6 cinit CODE >8670:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27D6 cinit CODE >8671:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27D8 cinit CODE >8672:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27DC cinit CODE >8673:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27DE cinit CODE >8674:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27E0 cinit CODE >8675:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27E2 cinit CODE >8676:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27E4 cinit CODE >8677:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27E6 cinit CODE >8681:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27EA cinit CODE >8682:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27EC cinit CODE >8683:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27EC cinit CODE >8684:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27EE cinit CODE >8685:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27F0 cinit CODE >8686:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27F2 cinit CODE >8689:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27F4 cinit CODE >8690:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27F6 cinit CODE >8691:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27F8 cinit CODE >8697:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27F8 cinit CODE >8699:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27FA cinit CODE >8700:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27FC cinit CODE >8702:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+27FE cinit CODE >8703:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+2800 cinit CODE >8704:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+2802 cinit CODE >8705:C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+OLED_V_Line@temp 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___awdiv@counter 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lmediumconst 6BBC 0 MEDIUMCONST 0 mediumconst dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hspace_0 8000 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hspace_1 4A1 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hspace_4 60000E 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_V_Line@color 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write_Text@length 39 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_V_Line@x_pos 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_V_Line@y_end 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\Exprimidor_naranjas_.X.production.o
+__mediumconst 6BBC 0 MEDIUMCONST 0 mediumconst C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Exprimidor_naranjas_.X.production.o
+floattostr@largo_entera 9F 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+_T1CONbits FCD 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__L__absolute__ 0 0 ABS 0 __absolute__ dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_I2C_Start 295C 0 CODE 0 text26 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_I2C_Write 291E 0 CODE 0 text24 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\Exprimidor_naranjas_.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+_main 1C5A 0 CODE 0 text0 dist/default/production\Exprimidor_naranjas_.X.production.o
+btemp 5B 0 COMRAM 1 temp dist/default/production\Exprimidor_naranjas_.X.production.o
+start 2A 0 CODE 0 init C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+___flmul@aexp 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___flmul@bexp 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___flmul@prod 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___flmul@sign 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___flmul@temp 28 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+?___wmul B 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_Write$2044 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_I2C_Start 2948 0 CODE 0 text26 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hpowerup 2A 0 CODE 0 powerup dist/default/production\Exprimidor_naranjas_.X.production.o
+_I2C_Write 2904 0 CODE 0 text24 dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_Write_Text 218C 0 CODE 0 text9 dist/default/production\Exprimidor_naranjas_.X.production.o
+__HdataBIGRAM 0 0 ABS 0 dataBIGRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_I2C_Init_Master 2848 0 CODE 0 text29 dist/default/production\Exprimidor_naranjas_.X.production.o
+ttemp5 5C 0 COMRAM 1 temp dist/default/production\Exprimidor_naranjas_.X.production.o
+ttemp6 5F 0 COMRAM 1 temp dist/default/production\Exprimidor_naranjas_.X.production.o
+ttemp7 63 0 COMRAM 1 temp dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@font_idx 25 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_OLED_ClearDisplay 2904 0 CODE 0 text27 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_OLED_Init 24C4 0 CODE 0 text21 dist/default/production\Exprimidor_naranjas_.X.production.o
+__accesstop 60 0 ABS 0 - C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+intlevel0 0 0 CODE 0 text C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+intlevel1 0 0 CODE 0 text C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+intlevel2 0 0 CODE 0 text C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+intlevel3 0 0 CODE 0 text C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+OLED_Write@cbyte 21 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@value 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_init_ADC 291E 0 CODE 0 text2 dist/default/production\Exprimidor_naranjas_.X.production.o
+_init_PWM 28A6 0 CODE 0 text1 dist/default/production\Exprimidor_naranjas_.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+wtemp8 5C 0 COMRAM 1 temp dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\Exprimidor_naranjas_.X.production.o
+__pidataBIGRAM D6A 0 CODE 0 idataBIGRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___awdiv@sign 8 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_init_ADC 2934 0 CODE 0 text2 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_init_PWM 28C8 0 CODE 0 text1 dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write_Text@text 34 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___wmul@multiplicand D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_Init 2406 0 CODE 0 text21 dist/default/production\Exprimidor_naranjas_.X.production.o
+_ADRESH FC4 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_SetFont 26C0 0 CODE 0 text13 dist/default/production\Exprimidor_naranjas_.X.production.o
+_ANSELC F5D 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_ANSELD F5E 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__LdataBIGRAM 0 0 ABS 0 dataBIGRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___awdiv@dividend 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Rectangle@color 27 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+_CCPR1L FBE 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_I2C_Stop 2934 0 CODE 0 text25 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of___flge 218C 0 CODE 0 text8 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of___wmul 28A6 0 CODE 0 text12 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Exprimidor_naranjas_.X.production.o
+floattostr@numero_ 8E 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+_I2C_Init_Master 2806 0 CODE 0 text29 dist/default/production\Exprimidor_naranjas_.X.production.o
+HCSR04_Get_Distance@timer_high 4D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_FONT_1 7D95 0 MEDIUMCONST 0 mediumconst dist/default/production\Exprimidor_naranjas_.X.production.o
+_FONT_2 77A1 0 MEDIUMCONST 0 mediumconst dist/default/production\Exprimidor_naranjas_.X.production.o
+_FONT_3 6BBD 0 MEDIUMCONST 0 mediumconst dist/default/production\Exprimidor_naranjas_.X.production.o
+___fldiv@aexp 42 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fldiv@bexp 41 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fldiv@sign 3A 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hmediumconst 8000 0 MEDIUMCONST 0 mediumconst dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_I2C_Stop 2948 0 CODE 0 text25 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hintcodelo 2A 0 CODE 0 intcodelo dist/default/production\Exprimidor_naranjas_.X.production.o
+___awdiv@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of___awdiv 2406 0 CODE 0 text20 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of___fladd 4EE 0 CODE 0 text6 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of___fldiv 18E6 0 CODE 0 text34 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of___flmul D6A 0 CODE 0 text33 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of___flneg 2880 0 CODE 0 text7 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of___flsub 27C2 0 CODE 0 text5 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of___fltol 2088 0 CODE 0 text4 dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_Write 116A 0 CODE 0 text11 dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@cx 27 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@cy 29 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_H_Line 264A 0 CODE 0 text16 dist/default/production\Exprimidor_naranjas_.X.production.o
+?_strlen 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_ISR_high 8 0 CODE 0 intcode dist/default/production\Exprimidor_naranjas_.X.production.o
+__LidataBIGRAM 0 0 ABS 0 idataBIGRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fladd@a 47 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fladd@b 43 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fldiv@a 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fldiv@b 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___flmul@a 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___flmul@b 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___flsub@a 8A 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+___flsub@b 86 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_height 2972 0 CODE 0 text19 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_ISR_high 2A 0 CODE 0 intcode dist/default/production\Exprimidor_naranjas_.X.production.o
+_INTCON2bits FF1 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lintcodelo 2A 0 CODE 0 intcodelo dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_ClearDisplay 28E6 0 CODE 0 text27 dist/default/production\Exprimidor_naranjas_.X.production.o
+start_initialization 27C2 0 CODE 0 cinit dist/default/production\Exprimidor_naranjas_.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_TRISBbits F93 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_TRISCbits F94 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_TRISDbits F95 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_H_Line@color 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_selected_pin 6F 0 BANK0 1 bssBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_H_Line@x_end 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_H_Line@y_pos 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_memset 1F82 0 CODE 0 text28 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_OLED_SetFont 272C 0 CODE 0 text13 dist/default/production\Exprimidor_naranjas_.X.production.o
+__pcstackBANK0 86 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+_SSPADD FC8 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_SSPBUF FC9 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_SetFont@font 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+HCSR04_Get_Distance@timer_low 4F 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+__end_of_OLED_Write 154C 0 CODE 0 text11 dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_Update 24C4 0 CODE 0 text22 dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_V_Line 25D4 0 CODE 0 text15 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_strlen 277A 0 CODE 0 text10 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hidloc 0 0 ABS 0 idloc dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\Exprimidor_naranjas_.X.production.o
+?_HCSR04_Get_Distance 43 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\Exprimidor_naranjas_.X.production.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+___xxtofl@arg D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___xxtofl@exp C 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___xxtofl@val 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@cbit 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@temp 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hconfig 30000E 0 CONFIG 4 config dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_DrawPixel@x B 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_DrawPixel@y D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lidloc 0 0 ABS 0 idloc dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\Exprimidor_naranjas_.X.production.o
+floattostr@largo_n 9B 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\Exprimidor_naranjas_.X.production.o
+_HCSR04_Init 295C 0 CODE 0 text30 dist/default/production\Exprimidor_naranjas_.X.production.o
+___flmul@grs 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\Exprimidor_naranjas_.X.production.o
+_PORTBbits F81 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_INTCONbits FF2 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hheap 0 0 HEAP 7 heap dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hinit 2E 0 CODE 0 init dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htemp 5C 0 COMRAM 1 temp dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext 0 0 ABS 0 text dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@cnt 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lheap 0 0 HEAP 7 heap dist/default/production\Exprimidor_naranjas_.X.production.o
+__Linit 2A 0 CODE 0 init dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltemp 5B 0 COMRAM 1 temp dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\Exprimidor_naranjas_.X.production.o
+memset@dest 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+memset@c 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+memset@k B 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+memset@n 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+memset@s D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___flge 2088 0 CODE 0 text8 dist/default/production\Exprimidor_naranjas_.X.production.o
+___wmul 2880 0 CODE 0 text12 dist/default/production\Exprimidor_naranjas_.X.production.o
+floattostr@tempo_float 97 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+int$flags 5B 0 COMRAM 1 temp dist/default/production\Exprimidor_naranjas_.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hintret 0 0 ABS 0 intret dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\Exprimidor_naranjas_.X.production.o
+_PR2 FBB 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__S0 8000 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__S1 4A1 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__S4 0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__S5 0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_V_Line@y_start 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_buffer 71 0 BANK0 1 bssBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__HidataBIGRAM 0 0 ABS 0 idataBIGRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_dht_ok 58 0 COMRAM 1 bssCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+I2C_Init_Master@sp_i2c 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_humedad 67 0 BANK0 1 bssBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_Rectangle 2552 0 CODE 0 text14 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\Exprimidor_naranjas_.X.production.o
+___xxtofl 1AA6 0 CODE 0 text32 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lintentry 0 0 ABS 0 intentry dist/default/production\Exprimidor_naranjas_.X.production.o
+_height 296E 0 CODE 0 text19 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hramtop 800 0 RAM 0 ramtop dist/default/production\Exprimidor_naranjas_.X.production.o
+strlen@a 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+strlen@s 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of___xxtofl 1C5A 0 CODE 0 text32 dist/default/production\Exprimidor_naranjas_.X.production.o
+__activetblptr 2 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\Exprimidor_naranjas_.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+_OLED_DrawPixel 18E6 0 CODE 0 text17 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext26 0 0 ABS 0 text26 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext27 0 0 ABS 0 text27 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext28 0 0 ABS 0 text28 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext30 0 0 ABS 0 text30 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext31 0 0 ABS 0 text31 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext32 0 0 ABS 0 text32 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext33 0 0 ABS 0 text33 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Htext34 0 0 ABS 0 text34 dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@rowcnt 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_memset 1E0C 0 CODE 0 text28 dist/default/production\Exprimidor_naranjas_.X.production.o
+___fladd@signs 4F 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext10 272C 0 CODE 0 text10 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext11 116A 0 CODE 0 text11 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext12 2880 0 CODE 0 text12 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext13 26C0 0 CODE 0 text13 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext14 2552 0 CODE 0 text14 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext15 25D4 0 CODE 0 text15 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext16 264A 0 CODE 0 text16 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext17 18E6 0 CODE 0 text17 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext18 296A 0 CODE 0 text18 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext19 296E 0 CODE 0 text19 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext20 2342 0 CODE 0 text20 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext21 2406 0 CODE 0 text21 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext22 24C4 0 CODE 0 text22 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext23 28C8 0 CODE 0 text23 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext24 2904 0 CODE 0 text24 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext25 2934 0 CODE 0 text25 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext26 2948 0 CODE 0 text26 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext27 28E6 0 CODE 0 text27 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext28 1E0C 0 CODE 0 text28 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext29 2806 0 CODE 0 text29 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext30 295C 0 CODE 0 text30 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext31 227C 0 CODE 0 text31 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext32 1AA6 0 CODE 0 text32 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext33 940 0 CODE 0 text33 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext34 154C 0 CODE 0 text34 dist/default/production\Exprimidor_naranjas_.X.production.o
+___awdiv 2342 0 CODE 0 text20 dist/default/production\Exprimidor_naranjas_.X.production.o
+___fladd 2E 0 CODE 0 text6 dist/default/production\Exprimidor_naranjas_.X.production.o
+___fldiv 154C 0 CODE 0 text34 dist/default/production\Exprimidor_naranjas_.X.production.o
+___flmul 940 0 CODE 0 text33 dist/default/production\Exprimidor_naranjas_.X.production.o
+___flneg 2848 0 CODE 0 text7 dist/default/production\Exprimidor_naranjas_.X.production.o
+___flsub 277A 0 CODE 0 text5 dist/default/production\Exprimidor_naranjas_.X.production.o
+___fltol 1F82 0 CODE 0 text4 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lconfig 0 0 CONFIG 4 config dist/default/production\Exprimidor_naranjas_.X.production.o
+___wmul@multiplier B 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_LATBbits F8A 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_LATCbits F8B 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_LATDbits F8C 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write_Text@x 30 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write_Text@y 32 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fldiv@grs 3D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fldiv@rem 36 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_OLED_Rectangle 25D4 0 CODE 0 text14 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\Exprimidor_naranjas_.X.production.o
+_strlen 272C 0 CODE 0 text10 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\Exprimidor_naranjas_.X.production.o
+isa$std 1 0 ABS 0 - C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+___fldiv@new_exp 3B 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_OLED_H_Line 26C0 0 CODE 0 text16 dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_DrawPixel@color F 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+stackhi 0 0 ABS 0 - C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+stacklo 0 0 ABS 0 - C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+_valorB 5A 0 COMRAM 1 bssCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lintcode 8 0 CODE 0 intcode dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lintret 0 0 ABS 0 intret dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\Exprimidor_naranjas_.X.production.o
+_ADCON0bits FC2 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_ADCON2bits FC0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+___fladd@grs 52 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_OLED_DrawPixel 1AA6 0 CODE 0 text17 dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write_Text@cnt 38 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lspace_4 0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__pbssCOMRAM 58 0 COMRAM 1 bssCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_H_Line@temp 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+___flge@ff1 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___flge@ff2 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+I2C_Write@data 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_PIR1bits F9E 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fltol@exp1 33 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+end_of_initialization 27F8 0 CODE 0 cinit dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hintentry 0 0 ABS 0 intentry dist/default/production\Exprimidor_naranjas_.X.production.o
+_RCONbits FD0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+floattostr@tempo_int 95 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+floattostr@cadena_ 92 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+___awdiv@quotient 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+?___awdiv 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_HCSR04_Get_Distance 227C 0 CODE 0 text31 dist/default/production\Exprimidor_naranjas_.X.production.o
+?___fladd 43 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+?___fldiv 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+?___flmul 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+?___flneg 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+?___flsub 86 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+?___fltol 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Update@i 6 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Update@x 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lramtop 800 0 RAM 0 ramtop dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\Exprimidor_naranjas_.X.production.o
+__pcinit 27C2 0 CODE 0 cinit dist/default/production\Exprimidor_naranjas_.X.production.o
+floattostr@decimales_ 94 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+floattostr@cont_for 9D 0 BANK0 1 cstackBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+_SSPCON2bits FC5 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+___flneg@f1 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext0 1C5A 0 CODE 0 text0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext1 28A6 0 CODE 0 text1 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext2 291E 0 CODE 0 text2 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext3 4EE 0 CODE 0 text3 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext4 1F82 0 CODE 0 text4 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext5 277A 0 CODE 0 text5 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext6 2E 0 CODE 0 text6 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext7 2848 0 CODE 0 text7 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext8 2088 0 CODE 0 text8 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ptext9 218C 0 CODE 0 text9 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext26 0 0 ABS 0 text26 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext27 0 0 ABS 0 text27 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext28 0 0 ABS 0 text28 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext30 0 0 ABS 0 text30 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext31 0 0 ABS 0 text31 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext32 0 0 ABS 0 text32 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext33 0 0 ABS 0 text33 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Ltext34 0 0 ABS 0 text34 dist/default/production\Exprimidor_naranjas_.X.production.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+__end_of_OLED_Update 2552 0 CODE 0 text22 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_OLED_V_Line 264A 0 CODE 0 text15 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lpowerup 2A 0 CODE 0 powerup dist/default/production\Exprimidor_naranjas_.X.production.o
+?___xxtofl 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Exprimidor_naranjas_.X.production.o
+_adc_value 85 0 BANK0 1 bssBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__H__absolute__ 0 0 ABS 0 __absolute__ dist/default/production\Exprimidor_naranjas_.X.production.o
+___fladd@aexp 50 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fladd@bexp 51 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___fltol@sign1 32 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+_buffer@ssd1306_oled$F923 A1 0 BIGRAM 1 dataBIGRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+main@distancia 54 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Rectangle@x1 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Rectangle@x2 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Rectangle@y1 21 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Rectangle@y2 25 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\Exprimidor_naranjas_.X.production.o
+HCSR04_Get_Distance@dis_hc 49 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+___heap_lo 0 0 ABS 0 - C:\Users\CAFE\AppData\Local\Temp\xcAsb90.\driver_tmp_9.o
+___fltol@f1 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of__initialization 27F8 0 CODE 0 cinit dist/default/production\Exprimidor_naranjas_.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_HCSR04_Init 296A 0 CODE 0 text30 dist/default/production\Exprimidor_naranjas_.X.production.o
+_floattostr 4EE 0 CODE 0 text3 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_ssd1306_command 28E6 0 CODE 0 text23 dist/default/production\Exprimidor_naranjas_.X.production.o
+ssd1306_command@command 4 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__pmediumconst 6BBC 0 MEDIUMCONST 0 mediumconst dist/default/production\Exprimidor_naranjas_.X.production.o
+_SSPCON1 FC6 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_SSPCON2 FC5 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_SSPSTAT FC7 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_main 1E0C 0 CODE 0 text0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__pintcode 8 0 CODE 0 intcode dist/default/production\Exprimidor_naranjas_.X.production.o
+_T1CON FCD 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_TMR1H FCF 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+_TMR1L FCE 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_width 296E 0 CODE 0 text18 dist/default/production\Exprimidor_naranjas_.X.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\Exprimidor_naranjas_.X.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\Exprimidor_naranjas_.X.production.o
+_cfont 60 0 BANK0 1 bssBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+_width 296A 0 CODE 0 text18 dist/default/production\Exprimidor_naranjas_.X.production.o
+_temperatura 6B 0 BANK0 1 bssBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_HCSR04_Get_Distance 2342 0 CODE 0 text31 dist/default/production\Exprimidor_naranjas_.X.production.o
+__pdataBIGRAM A1 0 BIGRAM 1 dataBIGRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__initialization 27C2 0 CODE 0 cinit dist/default/production\Exprimidor_naranjas_.X.production.o
+___xxtofl@sign B 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__pbssBANK0 60 0 BANK0 1 bssBANK0 dist/default/production\Exprimidor_naranjas_.X.production.o
+_T2CONbits FBA 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_H_Line@x_start 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\Exprimidor_naranjas_.X.production.o
+___wmul@product F 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@b 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@x 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+OLED_Write@y 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Exprimidor_naranjas_.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\Exprimidor_naranjas_.X.production.o
+_CCP1CONbits FBD 0 ABS 0 - dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_FONT_1 7FDA 0 MEDIUMCONST 0 mediumconst dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_FONT_2 7D95 0 MEDIUMCONST 0 mediumconst dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_FONT_3 77A1 0 MEDIUMCONST 0 mediumconst dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Exprimidor_naranjas_.X.production.o
+_ssd1306_command 28C8 0 CODE 0 text23 dist/default/production\Exprimidor_naranjas_.X.production.o
+__Hintcode 2A 0 CODE 0 intcode dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_floattostr 940 0 CODE 0 text3 dist/default/production\Exprimidor_naranjas_.X.production.o
+__end_of_OLED_Write_Text 227C 0 CODE 0 text9 dist/default/production\Exprimidor_naranjas_.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cstackCOMRAM 1 1 1 5B 1
+reset_vec 0 0 0 4 1
+bssBANK0 1 60 60 41 1
+intcode 0 8 8 296A 1
+dataBIGRAM 1 A1 A1 400 1
+mediumconst 0 6BBC 6BBC 1444 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
